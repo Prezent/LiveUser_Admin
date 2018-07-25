@@ -49,7 +49,7 @@
  * @category authentication
  * @package LiveUser_Admin
  * @author  Markus Wolff <wolff@21st.de>
- * @author  Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @author  Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @author  Lukas Smith <smith@pooteeweet.org>
  * @author  Arnaud Limbourg <arnaud@php.net>
  * @author  Christian Dickmann <dickmann@php.net>
@@ -60,8 +60,6 @@
  * @version CVS: $Id$
  * @link http://pear.php.net/LiveUser_Admin
  */
-
-require_once 'LiveUser/Perm/Simple.php';
 
 /**
  * Simple permission administration class that features support for
@@ -80,7 +78,7 @@ require_once 'LiveUser/Perm/Simple.php';
  * @package LiveUser_Admin
  * @author  Markus Wolff <wolff@21st.de>
  * @author  Bjoern Kraus <krausbn@php.net>
- * @author  Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @author  Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @copyright 2002-2006 Markus Wolff
  * @license http://www.gnu.org/licenses/lgpl.txt
  * @version Release: @package_version@

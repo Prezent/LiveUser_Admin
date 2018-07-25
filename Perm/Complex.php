@@ -49,7 +49,7 @@
  * @category authentication
  * @package LiveUser_Admin
  * @author Markus Wolff <wolff@21st.de>
- * @author  Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @author  Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @author Lukas Smith <smith@pooteeweet.org>
  * @author  Arnaud Limbourg <arnaud@php.net>
  * @author Christian Dickmann <dickmann@php.net>
@@ -60,11 +60,6 @@
  * @version CVS: $Id$
  * @link http://pear.php.net/LiveUser_Admin
  */
-
-/**
- * Require the parent class definition
- */
-require_once 'LiveUser/Admin/Perm/Medium.php';
 
 /**
  * Complex permission administration class that extends the Medium class with the

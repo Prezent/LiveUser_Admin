@@ -27,16 +27,10 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "LiveUser\\Admin": "./"
-        },
         "classmap": [
             "./"
         ]
     },
-    "include-path": [
-        "./"
-    ],
     "description": "More info available on: http://pear.php.net/package/LiveUser_Admin",
     "license": "LGPL",
     "name": "pear/liveuser_admin",

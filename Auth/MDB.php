@@ -49,7 +49,7 @@
  * @category authentication
  * @package LiveUser_Admin
  * @author  Markus Wolff <wolff@21st.de>
- * @author  Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @author  Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @author  Lukas Smith <smith@pooteeweet.org>
  * @author  Arnaud Limbourg <arnaud@php.net>
  * @author  Christian Dickmann <dickmann@php.net>
@@ -66,11 +66,6 @@
  * @package  LiveUser
  * @category authentication
  */
-
-/**
- * Require parent class definition and PEAR::MDB class.
- */
-require_once 'LiveUser/Admin/Auth/Common.php';
 
 /**
  * This is a PEAR::MDB backend container driver for the LiveUser Admin auth class.

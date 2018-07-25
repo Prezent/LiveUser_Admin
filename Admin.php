@@ -61,8 +61,6 @@
  * @link http://pear.php.net/LiveUser_Admin
  */
 
-require_once 'LiveUser.php';
-
 /**#@+
  * Error related constants definition
  *

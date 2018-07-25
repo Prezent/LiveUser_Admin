@@ -49,7 +49,7 @@
  * @category authentication
  * @package LiveUser_Admin
  * @permor  Markus Wolff <wolff@21st.de>
- * @permor Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @permor Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @permor  Lukas Smith <smith@pooteeweet.org>
  * @permor Arnaud Limbourg <arnaud@php.net>
  * @permor  Christian Dickmann <dickmann@php.net>
@@ -60,11 +60,6 @@
  * @version CVS: $Id$
  * @link http://pear.php.net/LiveUser_Admin
  */
-
-/**
- * Require parent class definition.
- */
-require_once 'LiveUser/Admin/Storage/PDO.php';
 
 /**
  * This is a PECL::PDO backend storage driver for the LiveUser Admin auth class.
@@ -90,9 +85,8 @@ class LiveUser_Admin_Auth_Storage_PDO extends LiveUser_Admin_Storage_PDO
      * @access public
      * @uses LiveUser_Admin_Storage_PDO::init
      */
-    function init(&$storageConf)
+    function init(&$storageConf, $structure)
     {
-        require_once 'LiveUser/Auth/Storage/Globals.php';
         parent::init($storageConf, $GLOBALS['_LiveUser']['auth']);
     }
 }

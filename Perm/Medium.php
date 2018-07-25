@@ -49,7 +49,7 @@
  * @category authentication
  * @package LiveUser_Admin
  * @author  Markus Wolff <wolff@21st.de>
- * @author  Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @author  Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @author  Lukas Smith <smith@pooteeweet.org>
  * @author  Arnaud Limbourg <arnaud@php.net>
  * @author  Christian Dickmann <dickmann@php.net>
@@ -65,11 +65,6 @@ define('LIVEUSER_GROUP_TYPE_ALL',   1);
 define('LIVEUSER_GROUP_TYPE_ROLE',  2);
 define('LIVEUSER_GROUP_TYPE_USER',  3);
 
- /**
- * Require parent class definition.
- */
-require_once 'LiveUser/Admin/Perm/Simple.php';
-
 /**
  * Medium permission administration class that extends the Simple class with the
  * ability to create, update, remove and assign groups.
@@ -82,7 +77,7 @@ require_once 'LiveUser/Admin/Perm/Simple.php';
  * @package LiveUser_Admin
  * @author  Markus Wolff <wolff@21st.de>
  * @author  Bjoern Kraus <krausbn@php.net>
- * @author  Helgi Þormar Þorbjörnsson <dufuz@php.net>
+ * @author  Helgi ï¿½ormar ï¿½orbjï¿½rnsson <dufuz@php.net>
  * @copyright 2002-2006 Markus Wolff
  * @license http://www.gnu.org/licenses/lgpl.txt
  * @version Release: @package_version@
